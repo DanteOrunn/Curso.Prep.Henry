@@ -6,7 +6,7 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x > y) {
-    return x;
+    return x ;
   } else {
     if (y > x) {
       return y;
@@ -53,23 +53,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma == "aleman") {
-    return "Guten Tag!";
-  } else {
-    if (idioma == "mandarin") {
-      return "Ni Hao!";
-    } else {
-      if (idioma == ingles) {
-        return "Hello!";
-      } else {
-        if (idioma == undefined) {
-          return "Hola!";
-        } else {
-          return "Hola!";
-        }
-      }
-    }
-  }
+  
 }
 
 function colors(color) {
@@ -80,30 +64,12 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  switch (color) {
-    case "blue":
-      return "This is blue";
-      break;
-    case "red":
-      return "This is red";
-      break;
-    case "green":
-      return "This is green";
-      break;
-    case "orange":
-      return "This is orange";
-      break;
-    default:
-      return "Color not found";
-      break;
-  }
 }
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  
 }
 
 function estaEnRango(numero) {
